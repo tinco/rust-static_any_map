@@ -1,0 +1,30 @@
+[root]
+name = "static_any_map"
+version = "0.1.0"
+dependencies = [
+ "lazy_static 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "shared-mutex 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "lazy_static"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "poison"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "shared-mutex"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "poison 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum lazy_static 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "49247ec2a285bb3dcb23cbd9c35193c025e7251bfce77c1d5da97e6362dffe7f"
+"checksum poison 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "9509d417e5e4c757982decf75a71f7019d019a54cbb70deaa59281db8f2e556f"
+"checksum shared-mutex 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = "b632f21d1fbe7682cea57d8228faef2b7ab457264156893f37fb599484891557"
